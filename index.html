@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ghana Birth Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>What’s Your Ghana Name?</h1>
+  </header>
+  <main>
+    <form id="nameForm">
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required />
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+      <button type="submit">Find My Name</button>
+    </form>
+    <div id="result"></div>
+    <section id="nameOfTheDay">
+      <h2>Name of the Day</h2>
+      <p><strong>Wednesday:</strong> Kwaku (Male), Akua (Female) – Born on Wednesday, known for cleverness and adaptability.</p>
+    </section>
+  </main>
+  <footer>
+    <p>Powered by GhanaNameFinder.com</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

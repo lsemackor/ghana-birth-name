@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ef3340;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+form {
+  padding: 2rem;
+}
+#nameOfTheDay {
+  background-color: #006b3f;
+  color: white;
+  padding: 1rem;
+  margin: 2rem;
+}
+footer {
+  background-color: #ef3340;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
